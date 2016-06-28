@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA10EAA91D21F7FC004E448F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EAA81D21F7FC004E448F /* main.m */; };
+		EA10EAAC1D21F7FC004E448F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EAAB1D21F7FC004E448F /* AppDelegate.m */; };
+		EA10EAAF1D21F7FC004E448F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EAAE1D21F7FC004E448F /* ViewController.m */; };
+		EA10EAB21D21F7FC004E448F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA10EAB01D21F7FC004E448F /* Main.storyboard */; };
+		EA10EAB41D21F7FC004E448F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA10EAB31D21F7FC004E448F /* Assets.xcassets */; };
+		EA10EAB71D21F7FC004E448F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA10EAB51D21F7FC004E448F /* LaunchScreen.storyboard */; };
+		EA10EAC21D21F7FD004E448F /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EAC11D21F7FD004E448F /* ________Tests.m */; };
+		EA10EACD1D21F7FD004E448F /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EACC1D21F7FD004E448F /* ________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA10EABE1D21F7FD004E448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA10EA9C1D21F7FC004E448F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA10EAA31D21F7FC004E448F;
+			remoteInfo = "轮播器和沙盒工具";
+		};
+		EA10EAC91D21F7FD004E448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA10EA9C1D21F7FC004E448F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA10EAA31D21F7FC004E448F;
+			remoteInfo = "轮播器和沙盒工具";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA10EAA41D21F7FC004E448F /* 轮播器和沙盒工具.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "轮播器和沙盒工具.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA10EAA81D21F7FC004E448F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA10EAAA1D21F7FC004E448F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA10EAAB1D21F7FC004E448F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA10EAAD1D21F7FC004E448F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA10EAAE1D21F7FC004E448F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA10EAB11D21F7FC004E448F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA10EAB31D21F7FC004E448F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA10EAB61D21F7FC004E448F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA10EAB81D21F7FC004E448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA10EABD1D21F7FD004E448F /* 轮播器和沙盒工具Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "轮播器和沙盒工具Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA10EAC11D21F7FD004E448F /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		EA10EAC31D21F7FD004E448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA10EAC81D21F7FD004E448F /* 轮播器和沙盒工具UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "轮播器和沙盒工具UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA10EACC1D21F7FD004E448F /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		EA10EACE1D21F7FD004E448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA10EAA11D21F7FC004E448F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA10EABA1D21F7FD004E448F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA10EAC51D21F7FD004E448F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA10EA9B1D21F7FC004E448F = {
+			isa = PBXGroup;
+			children = (
+				EA10EAA61D21F7FC004E448F /* 轮播器和沙盒工具 */,
+				EA10EAC01D21F7FD004E448F /* 轮播器和沙盒工具Tests */,
+				EA10EACB1D21F7FD004E448F /* 轮播器和沙盒工具UITests */,
+				EA10EAA51D21F7FC004E448F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA10EAA51D21F7FC004E448F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA10EAA41D21F7FC004E448F /* 轮播器和沙盒工具.app */,
+				EA10EABD1D21F7FD004E448F /* 轮播器和沙盒工具Tests.xctest */,
+				EA10EAC81D21F7FD004E448F /* 轮播器和沙盒工具UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA10EAA61D21F7FC004E448F /* 轮播器和沙盒工具 */ = {
+			isa = PBXGroup;
+			children = (
+				EA10EAAA1D21F7FC004E448F /* AppDelegate.h */,
+				EA10EAAB1D21F7FC004E448F /* AppDelegate.m */,
+				EA10EAAD1D21F7FC004E448F /* ViewController.h */,
+				EA10EAAE1D21F7FC004E448F /* ViewController.m */,
+				EA10EAB01D21F7FC004E448F /* Main.storyboard */,
+				EA10EAB31D21F7FC004E448F /* Assets.xcassets */,
+				EA10EAB51D21F7FC004E448F /* LaunchScreen.storyboard */,
+				EA10EAB81D21F7FC004E448F /* Info.plist */,
+				EA10EAA71D21F7FC004E448F /* Supporting Files */,
+			);
+			path = "轮播器和沙盒工具";
+			sourceTree = "<group>";
+		};
+		EA10EAA71D21F7FC004E448F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA10EAA81D21F7FC004E448F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA10EAC01D21F7FD004E448F /* 轮播器和沙盒工具Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA10EAC11D21F7FD004E448F /* ________Tests.m */,
+				EA10EAC31D21F7FD004E448F /* Info.plist */,
+			);
+			path = "轮播器和沙盒工具Tests";
+			sourceTree = "<group>";
+		};
+		EA10EACB1D21F7FD004E448F /* 轮播器和沙盒工具UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA10EACC1D21F7FD004E448F /* ________UITests.m */,
+				EA10EACE1D21F7FD004E448F /* Info.plist */,
+			);
+			path = "轮播器和沙盒工具UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA10EAA31D21F7FC004E448F /* 轮播器和沙盒工具 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA10EAD11D21F7FD004E448F /* Build configuration list for PBXNativeTarget "轮播器和沙盒工具" */;
+			buildPhases = (
+				EA10EAA01D21F7FC004E448F /* Sources */,
+				EA10EAA11D21F7FC004E448F /* Frameworks */,
+				EA10EAA21D21F7FC004E448F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "轮播器和沙盒工具";
+			productName = "轮播器和沙盒工具";
+			productReference = EA10EAA41D21F7FC004E448F /* 轮播器和沙盒工具.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA10EABC1D21F7FD004E448F /* 轮播器和沙盒工具Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA10EAD41D21F7FD004E448F /* Build configuration list for PBXNativeTarget "轮播器和沙盒工具Tests" */;
+			buildPhases = (
+				EA10EAB91D21F7FD004E448F /* Sources */,
+				EA10EABA1D21F7FD004E448F /* Frameworks */,
+				EA10EABB1D21F7FD004E448F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA10EABF1D21F7FD004E448F /* PBXTargetDependency */,
+			);
+			name = "轮播器和沙盒工具Tests";
+			productName = "轮播器和沙盒工具Tests";
+			productReference = EA10EABD1D21F7FD004E448F /* 轮播器和沙盒工具Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA10EAC71D21F7FD004E448F /* 轮播器和沙盒工具UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA10EAD71D21F7FD004E448F /* Build configuration list for PBXNativeTarget "轮播器和沙盒工具UITests" */;
+			buildPhases = (
+				EA10EAC41D21F7FD004E448F /* Sources */,
+				EA10EAC51D21F7FD004E448F /* Frameworks */,
+				EA10EAC61D21F7FD004E448F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA10EACA1D21F7FD004E448F /* PBXTargetDependency */,
+			);
+			name = "轮播器和沙盒工具UITests";
+			productName = "轮播器和沙盒工具UITests";
+			productReference = EA10EAC81D21F7FD004E448F /* 轮播器和沙盒工具UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA10EA9C1D21F7FC004E448F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Guan Nan Wang";
+				TargetAttributes = {
+					EA10EAA31D21F7FC004E448F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 94474947CR;
+					};
+					EA10EABC1D21F7FD004E448F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 94474947CR;
+						TestTargetID = EA10EAA31D21F7FC004E448F;
+					};
+					EA10EAC71D21F7FD004E448F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 94474947CR;
+						TestTargetID = EA10EAA31D21F7FC004E448F;
+					};
+				};
+			};
+			buildConfigurationList = EA10EA9F1D21F7FC004E448F /* Build configuration list for PBXProject "轮播器和沙盒工具" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA10EA9B1D21F7FC004E448F;
+			productRefGroup = EA10EAA51D21F7FC004E448F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA10EAA31D21F7FC004E448F /* 轮播器和沙盒工具 */,
+				EA10EABC1D21F7FD004E448F /* 轮播器和沙盒工具Tests */,
+				EA10EAC71D21F7FD004E448F /* 轮播器和沙盒工具UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA10EAA21D21F7FC004E448F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA10EAB71D21F7FC004E448F /* LaunchScreen.storyboard in Resources */,
+				EA10EAB41D21F7FC004E448F /* Assets.xcassets in Resources */,
+				EA10EAB21D21F7FC004E448F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA10EABB1D21F7FD004E448F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA10EAC61D21F7FD004E448F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA10EAA01D21F7FC004E448F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA10EAAF1D21F7FC004E448F /* ViewController.m in Sources */,
+				EA10EAAC1D21F7FC004E448F /* AppDelegate.m in Sources */,
+				EA10EAA91D21F7FC004E448F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA10EAB91D21F7FD004E448F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA10EAC21D21F7FD004E448F /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA10EAC41D21F7FD004E448F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA10EACD1D21F7FD004E448F /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA10EABF1D21F7FD004E448F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA10EAA31D21F7FC004E448F /* 轮播器和沙盒工具 */;
+			targetProxy = EA10EABE1D21F7FD004E448F /* PBXContainerItemProxy */;
+		};
+		EA10EACA1D21F7FD004E448F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA10EAA31D21F7FC004E448F /* 轮播器和沙盒工具 */;
+			targetProxy = EA10EAC91D21F7FD004E448F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA10EAB01D21F7FC004E448F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA10EAB11D21F7FC004E448F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA10EAB51D21F7FC004E448F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA10EAB61D21F7FC004E448F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA10EACF1D21F7FD004E448F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA10EAD01D21F7FD004E448F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA10EAD21D21F7FD004E448F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "轮播器和沙盒工具/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA10EAD31D21F7FD004E448F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "轮播器和沙盒工具/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA10EAD51D21F7FD004E448F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "轮播器和沙盒工具Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/轮播器和沙盒工具.app/轮播器和沙盒工具";
+			};
+			name = Debug;
+		};
+		EA10EAD61D21F7FD004E448F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "轮播器和沙盒工具Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/轮播器和沙盒工具.app/轮播器和沙盒工具";
+			};
+			name = Release;
+		};
+		EA10EAD81D21F7FD004E448F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "轮播器和沙盒工具UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "轮播器和沙盒工具";
+			};
+			name = Debug;
+		};
+		EA10EAD91D21F7FD004E448F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "轮播器和沙盒工具UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "轮播器和沙盒工具";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA10EA9F1D21F7FC004E448F /* Build configuration list for PBXProject "轮播器和沙盒工具" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA10EACF1D21F7FD004E448F /* Debug */,
+				EA10EAD01D21F7FD004E448F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA10EAD11D21F7FD004E448F /* Build configuration list for PBXNativeTarget "轮播器和沙盒工具" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA10EAD21D21F7FD004E448F /* Debug */,
+				EA10EAD31D21F7FD004E448F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA10EAD41D21F7FD004E448F /* Build configuration list for PBXNativeTarget "轮播器和沙盒工具Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA10EAD51D21F7FD004E448F /* Debug */,
+				EA10EAD61D21F7FD004E448F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA10EAD71D21F7FD004E448F /* Build configuration list for PBXNativeTarget "轮播器和沙盒工具UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA10EAD81D21F7FD004E448F /* Debug */,
+				EA10EAD91D21F7FD004E448F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA10EA9C1D21F7FC004E448F /* Project object */;
+}
