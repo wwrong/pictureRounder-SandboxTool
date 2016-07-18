@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		EA10EAA91D21F7FC004E448F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EAA81D21F7FC004E448F /* main.m */; };
 		EA10EAAC1D21F7FC004E448F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EAAB1D21F7FC004E448F /* AppDelegate.m */; };
-		EA10EAAF1D21F7FC004E448F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EAAE1D21F7FC004E448F /* ViewController.m */; };
 		EA10EAB21D21F7FC004E448F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA10EAB01D21F7FC004E448F /* Main.storyboard */; };
 		EA10EAB41D21F7FC004E448F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA10EAB31D21F7FC004E448F /* Assets.xcassets */; };
 		EA10EAB71D21F7FC004E448F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA10EAB51D21F7FC004E448F /* LaunchScreen.storyboard */; };
 		EA10EAC21D21F7FD004E448F /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EAC11D21F7FD004E448F /* ________Tests.m */; };
 		EA10EACD1D21F7FD004E448F /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EACC1D21F7FD004E448F /* ________UITests.m */; };
+		EA10EADF1D21F866004E448F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EADE1D21F866004E448F /* ViewController.m */; };
+		EA10EAE51D21FFCF004E448F /* SandboxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10EAE41D21FFCF004E448F /* SandboxManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		EA10EAA81D21F7FC004E448F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA10EAAA1D21F7FC004E448F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA10EAAB1D21F7FC004E448F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA10EAAD1D21F7FC004E448F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA10EAAE1D21F7FC004E448F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA10EAB11D21F7FC004E448F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA10EAB31D21F7FC004E448F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA10EAB61D21F7FC004E448F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		EA10EAC81D21F7FD004E448F /* 轮播器和沙盒工具UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "轮播器和沙盒工具UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA10EACC1D21F7FD004E448F /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		EA10EACE1D21F7FD004E448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA10EADD1D21F866004E448F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA10EADE1D21F866004E448F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA10EAE31D21FFCF004E448F /* SandboxManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandboxManager.h; sourceTree = "<group>"; };
+		EA10EAE41D21FFCF004E448F /* SandboxManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandboxManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +106,10 @@
 			children = (
 				EA10EAAA1D21F7FC004E448F /* AppDelegate.h */,
 				EA10EAAB1D21F7FC004E448F /* AppDelegate.m */,
-				EA10EAAD1D21F7FC004E448F /* ViewController.h */,
-				EA10EAAE1D21F7FC004E448F /* ViewController.m */,
+				EA10EADD1D21F866004E448F /* ViewController.h */,
+				EA10EADE1D21F866004E448F /* ViewController.m */,
+				EA10EAE31D21FFCF004E448F /* SandboxManager.h */,
+				EA10EAE41D21FFCF004E448F /* SandboxManager.m */,
 				EA10EAB01D21F7FC004E448F /* Main.storyboard */,
 				EA10EAB31D21F7FC004E448F /* Assets.xcassets */,
 				EA10EAB51D21F7FC004E448F /* LaunchScreen.storyboard */,
@@ -273,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA10EAAF1D21F7FC004E448F /* ViewController.m in Sources */,
+				EA10EAE51D21FFCF004E448F /* SandboxManager.m in Sources */,
+				EA10EADF1D21F866004E448F /* ViewController.m in Sources */,
 				EA10EAAC1D21F7FC004E448F /* AppDelegate.m in Sources */,
 				EA10EAA91D21F7FC004E448F /* main.m in Sources */,
 			);
@@ -501,6 +507,7 @@
 				EA10EAD31D21F7FD004E448F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA10EAD41D21F7FD004E448F /* Build configuration list for PBXNativeTarget "轮播器和沙盒工具Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				EA10EAD61D21F7FD004E448F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA10EAD71D21F7FD004E448F /* Build configuration list for PBXNativeTarget "轮播器和沙盒工具UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				EA10EAD91D21F7FD004E448F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
